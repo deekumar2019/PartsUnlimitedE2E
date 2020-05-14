@@ -4,6 +4,7 @@ using System.ComponentModel.DataAnnotations;
 namespace PartsUnlimited.Models
 {
     public class CartItem : ILineItem
+    //Myfirst change
     {
         [Key]
         public int CartItemId { get; set; }
